@@ -1,0 +1,58 @@
+@font-face {
+    font-family: tandy;
+    src: url(tandy.woff);
+}
+
+body {
+    font-family: tandy;
+    color: #ffc34c;
+    background-color: black;
+    
+    //cursor: none;
+}
+
+#display {
+    white-space: pre-wrap;
+    font-size: 50px;
+    margin: 25px;
+    
+    position: absolute;
+    left: 0;
+    bottom: 100;
+}
+
+#user {
+    font-family: tandy;
+    font-size: 50px;
+    position: absolute;
+    bottom: 25;
+    left: 25;
+    color: #ef767a;
+}
+
+input {
+    position: absolute;
+    top: -100px;    
+}
+
+#cursor {
+    font-family: tandy;
+    font-size: 50px;
+    color: #ef767a;
+    
+    position: absolute;
+    left: 0;
+    bottom: 25;
+    -webkit-animation: blink 1s infinite; 
+}
+
+@-webkit-keyframes blink {
+    0%{color: black;}
+    50%{color: #ef767a;}	
+    100%{color: black;}	
+}
+
+// #ef767a
+// #ffc34c
+// #456990
+// #49beaa
